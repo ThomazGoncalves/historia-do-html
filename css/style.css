@@ -133,3 +133,9 @@ p {
     margin: auto;
     margin-bottom: 20px;
 }
+
+footer {
+    text-align: center;
+    background-color: var(--cor-0);
+    color: white;
+}
