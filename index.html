@@ -51,10 +51,49 @@
             <p>A “mágica” acontece, porque o HTML “diz” ao navegador o que ele deve fazer com cada porção de texto contido em um arquivo HTML. Assim, para este texto que você lê agora, neste exato parágrafo, existe uma tag associada a ele – na verdade duas – que indica que este parágrafo deve existir.</p>
             <p>Portanto, agora você já sabe que cada parágrafo em um texto de um site ou blog ou qualquer outro tipo de site, existe porque há uma tag dizendo ao navegador que aquele elemento de texto, refere-se a um parágrafo e como tal deve ser exibido.</p>
             <p>O termo tag, corresponde a etiqueta em inglês. Uma tag típica, tem começo e fim, ou melhor dizendo é composta de uma tag de abertura e uma de fechamento e por essa razão que informamos anteriormente que há duas tags associadas a um parágrafo. Dessa forma, a construção a seguir será interpretada como um parágrafo pelos navegadores:</p>
+            <div class="bloco">
+                <code>
+                    &ltp&gt Isso é um parágrafo! &lt/p&gt
+                </code>
+            </div>
+            <p>Onde, a primeira tag indica o início do parágrafo e a segunda, o seu fim. O mesmo princípio está associado a vários elementos de uma página, como é o caso dos links, cuja instrução HTML e respectivas tags são:</p>
+            <div class="bloco">
+                <code>
+                    &lta&gt link &lt/a&gt
+                </code>
+            </div>
+            <p>O que está entre a tag de abertura e a de fechamento, é o que o navegador devem modificar e exibir como tal, que no caso de um link, vem geralmente visualmente modificado com um sublinhado e cor padrão azul.</p>
+            <p>No entanto, há tags que não têm uma tag de fechamento correspondente, porque não têm um conteúdo que é modificado por elas e cujo exemplo mais usado, é a que simplesmente adiciona uma quebra (break) de linha no texto que está sendo exibido e é representada por:</p>
+            <div class="bloco">
+                <code>
+                     &lt/br&gt
+                </code>
+            </div>
+            <p>E você mesmo sem qualquer ferramenta específica pode criar um HTML básico e verificar seu funcionamento, tendo como únicos requisitos um editor de texto bem básico, como o notepad do Windows e um navegador. Para tanto, basta digitar o conteúdo abaixo e salvá-lo como por exemplo, meuprimeirosite.html e depois abri-lo em seu navegador:</p>
+            <div id="bloco2">
+                <code>
+                    <section>
+                        &lthtml&gt <br>
+                        &lthead&gt<br>
+                        &lttitle&gtTítulo da Página&lt/title&gt<br>
+                        &lthead/&gt <br>
+                        <br>
+                        &ltbody&gt
+                    </section>
+
+                    &lth1&gt Meu primeiro site &lth1/&gt<br>
+                    &ltp&gtMeu primeiro parágrafo&ltp/&gt<br>
+                    &ltp&gtMeu segundo parágrafo&ltp/&gt<br>
+                    <br>
+                    &lt/body&gt <br>
+                    &lt/html&gt
+                </code>
+            </div>
+
         </article>
     </main>
     <footer>
-        <p>Desenvolvido por Thomaz Gonçalves</p>
+        <p>Desenvolvido por <a href="https://github.com/ThomazGoncalves" target="_blank">Thomaz Gonçalves</a></p>
     </footer>
     
 </body>
